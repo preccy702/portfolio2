@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #eef4fb;
+  color: #0f172a;
+}
+
+/* HERO */
+.hero {
+  background: #243b53;
+  color: white;
+  padding: 20px;
+  display: flex;
+  gap: 16px;
+  border-radius: 0 0 22px 22px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right {
+  width: 120px;
+  height: 160px;
+  background: #cbd5e1;
+  border-radius: 18px;
+}
+.heroo{
+    height: 160px;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.role {
+  color: #38bdf8;
+  margin-bottom: 6px;
+}
+
+hr {
+  width: 100%;
+  border: 1px thin #38bdf8;
+  margin: 8px 0;
+}
+
+.tagline {
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.btn {
+  background: #334e68;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 18px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #22d3ee;
+  color: #0f172a;
+  transform: scale(1.07);
+}
+
+/* ABOUT */
+.about {
+  padding: 24px 16px;
+}
+
+.about-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.about-img {
+  width: 12rem;
+  height: 150px;
+  background: #cbd5e1;
+  border-radius: 50%;
+  float: top;
+}
+.abot{
+    height: 8.3rem;
+    margin-top: 8%;
+    margin-left: 2%;
+}
+
+.about-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* PROJECTS */
+.projects {
+  background: #e5e7eb;
+  padding: 24px 16px;
+}
+
+.project-scroll {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  margin-top: 14px;
+}
+
+.project-card {
+  min-width: 160px;
+  height: 130px;
+  background: #cbd5e1;
+  border-radius: 18px;
+  
+}
+.pro1{
+    height: 8rem;
+}
+.pro2{
+    height: 7rem;
+    width: 10rem;
+}
+.pro3{
+    height: 7rem;
+    width: 10rem;
+}
+.pro4{
+    height: 8.5rem;
+    width: 10rem;
+}
+.pro5{
+    height: 8rem;
+    width: 10rem;
+}
+/* SKILLS */
+.skills {
+  padding: 24px 16px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.skills-grid span {
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
+  text-align: center;
+  font-size: 0.75rem;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+}
+.skills-grid span:hover {
+  background: black;
+  color:whitesmoke;
+  transform: scale(1.05);}
+
+/* EXPERIENCE */
+.experience {
+  background: #e5e7eb;
+  padding: 24px 16px;
+}
+
+.exp-box {
+  background: white;
+  padding: 14px;
+  border-radius: 14px;
+  margin-top: 12px;
+}
+
+/* SERVICES */
+.services {
+  padding: 24px 16px;
+}
+
+.service {
+  background: white;
+  padding: 16px;
+  border-radius: 14px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.service:hover {
+  background: black;
+  color:whitesmoke;
+  transform: scale(1.05);}
+
+footer {
+  background: #243b53;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  font-size: 0.75rem;
+  cursor: nwse-resize;
+}
+footer:hover {
+  background: whitesmoke;
+  color: black;
+  transform: scale(1.02);
+}
